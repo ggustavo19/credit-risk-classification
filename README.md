@@ -9,6 +9,7 @@
 Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 
 * Logitic Regression Model:
+    * ![image](https://github.com/ggustavo19/credit-risk-classification/assets/152371383/79b94e8f-1cbd-45be-aee7-1f69c017152c)
     * Accuracy: The model achieved an overall accuracy of 99%, indicating that it correctly predicted the loan status for 99% of the dataset.
     * Precision:
       * `0` (No Default): The precision for predicting non-defaults is 100%.
@@ -23,8 +24,6 @@ Using bulleted lists, describe the accuracy scores and the precision and recall 
       * `0` (No Default): The model was tested on 18,765 borrowers that did not default.
       * `1` (Default): The model was tested on 619 borrowers that defaulted.
   
-    * ![image](https://github.com/ggustavo19/credit-risk-classification/assets/152371383/79b94e8f-1cbd-45be-aee7-1f69c017152c)
-
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
