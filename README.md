@@ -22,7 +22,8 @@ Using bulleted lists, describe the accuracy scores and the precision and recall 
     * Support:
       * `0` (No Default): The model was tested on 18,765 borrowers that did not default.
       * `1` (Default): The model was tested on 619 borrowers that defaulted.
-   ![image](https://github.com/ggustavo19/credit-risk-classification/assets/152371383/79b94e8f-1cbd-45be-aee7-1f69c017152c)
+  
+    * ![image](https://github.com/ggustavo19/credit-risk-classification/assets/152371383/79b94e8f-1cbd-45be-aee7-1f69c017152c)
 
 ## Summary
 
