@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-* The purpose of the analysis was to develop a predictive model to accurately forecast whether a borrower will default on a loan. The financial data was on the following: Loan size, interest rate, borrower income, debt to income, number of accounts held by borrower, deragatory marks on credit history, and total debt. With all of this criteria/data we needed to predict wether the borrower would pay the loan back `0` or at some point default `1`. The primary method used in this predictive model was `Logistic Regression`
+* The purpose of the analysis was to develop a predictive model to accurately forecast whether a borrower will default on a loan. The financial data was on the following: Loan size, interest rate, borrower income, debt to income, number of accounts held by borrower, deragatory marks on credit history, and total debt. With all of this criteria/data we needed to predict whether the borrower would pay the loan back `0` or at some point default `1`. The primary method used in this predictive model was `Logistic Regression`
 
 ## Results
 
