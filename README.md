@@ -1,8 +1,7 @@
 # Credit Risk Analysis Report
 
 ## Overview of the Analysis
-
-* The purpose of the analysis was to develop a predictive model to accurately forecast whether a borrower will default on a loan. The financial data was on the following: Loan size, interest rate, borrower income, debt to income, number of accounts held by borrower, deragatory marks on credit history, and total debt. With all of this criteria/data we needed to predict whether the borrower would pay the loan back `0` or at some point default `1`. The primary method used in this predictive model was `Logistic Regression`
+The purpose of the analysis was to develop a predictive model to accurately forecast whether a borrower will default on a loan. The financial data was on the following: Loan size, interest rate, borrower income, debt to income, number of accounts held by borrower, deragatory marks on credit history, and total debt. With all of this criteria/data we needed to predict whether the borrower would pay the loan back `0` or at some point default `1`. The primary method used in this predictive model was `Logistic Regression`
 
 ## Results
 
@@ -24,9 +23,4 @@
   
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+Summarize the results of the machine learning model.
