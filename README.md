@@ -18,8 +18,8 @@ Using bulleted lists, describe the accuracy scores and the precision and recall 
       * `0` (No Default): The recall for non-defaults is 99%. The model identified 99% of all actual non-defaults correctly.
       * `1` (Default): The recall for defaults is 91%. The model identified 91% of all actual defaults correctly.
     * F1-Score:
-      * `0` (No Default): The F1-score for non-defaults is 1.00, calculating balance between precision and recall.
-      * `1` (Default): The F1-score for defaults is 0.88, calculating the balance between precision and recall.
+      * `0` (No Default): The F1-score for non-defaults is 1.00, calculating the average between precision and recall.
+      * `1` (Default): The F1-score for defaults is 0.88, calculating the average between precision and recall.
     * Support:
       * `0` (No Default): The model was tested on 18,765 borrowers that did not default.
       * `1` (Default): The model was tested on 619 borrowers that defaulted.
