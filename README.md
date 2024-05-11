@@ -2,20 +2,26 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+* The purpose of the analysis was to develop a predictive model to accurately forecast whether a borrower will default on a loan. The financial data was on the following: Loan size, interest rate, borrower income, debt to income, number of accounts held by borrower, deragatory marks on credit history, and total debt. With all of this criteria/data we needed to predict wether the borrower would pay the loan back `0` or at some point default `1`. The primary method used in this predictive model was `Logistic Regression`
 
 ## Results
 
 Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Logitic Regression Model:
+    * Accuracy: The model achieved an overall accuracy of 99%, indicating that it correctly predicted the loan status for 99% of the dataset.
+    * Precision:
+      * `0` (No Default): The precision for predicting non-defaults is 100%.
+      * `1` (Default): The precision for predicting defaults is 85%, indicating that 85% of the loans predicted to default actually defaulted.
+    * Recall:
+      * `0` (No Default): The recall for non-defaults is 99%. The model identified 99% of all actual non-defaults correctly.
+      * `1` (Default): The recall for defaults is 91%. The model identified 91% of all actual defaults correctly.
+    * F1-Score:
+      * `0` (No Default): The F1-score for non-defaults is 1.00, calculating balance between precision and recall.
+      * `1` (Default): The F1-score for defaults is 0.88, calculating the balance between precision and recall.
+    * Support:
+      * `0` (No Default): The model was tested on 18,765 borrowers that did not default.
+      * `1` (Default): The model was tested on 619 borrowers that defaulted.
 
 ## Summary
 
