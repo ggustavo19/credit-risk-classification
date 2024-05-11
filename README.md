@@ -6,8 +6,6 @@
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
 * Logitic Regression Model:
     * ![image](https://github.com/ggustavo19/credit-risk-classification/assets/152371383/79b94e8f-1cbd-45be-aee7-1f69c017152c)
     * Accuracy: The model achieved an overall accuracy of 99%, indicating that it correctly predicted the loan status for 99% of the dataset.
