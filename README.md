@@ -23,4 +23,4 @@ The purpose of the analysis was to develop a predictive model to accurately fore
   
 ## Summary
 
-Summarize the results of the machine learning model.
+The Logistic Regression model used in this report came back with exceptional results that can accurately predict non defaults by 100% and defaults by 85%. The overall accuracy for the prediction model was 99% which makes it a highly accurate model to use in order to predict whether a borrower will default on their loan. 
